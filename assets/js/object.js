@@ -2,7 +2,7 @@ function checkObject(checkObject) {
     let titleCheck = "title" in obj;
     let textCheck = "text" in obj;
     
-    If (Object.keys(obj).length !==2) {
+    If (Object.keys(obj).length !==2); {
         return false;
     }
     if (titleCheck && textCheck) {
