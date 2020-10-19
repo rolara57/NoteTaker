@@ -1,4 +1,4 @@
-function checkObject(checkObject) {
+function Object(obj) {
     let titleCheck = "title" in obj;
     let textCheck = "text" in obj;
     
@@ -12,4 +12,4 @@ function checkObject(checkObject) {
         return false;
     }
 }
-module.exports = checkObject;
+module.exports = Object;
